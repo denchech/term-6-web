@@ -1,5 +1,106 @@
-#pond {
-    display: flex;
+#task-1 {
+    justify-content: flex-end;
+}
+
+#task-2 {
+    justify-content: center
+}
+
+#task-3 {
+    justify-content: space-around;
+}
+
+#task-4 {
+    justify-content: space-between;
+}
+
+#task-5 {
+    align-items: flex-end
+}
+
+#task-6 {
+    justify-content: center;
+    align-items: center;
+}
+
+#task-7 {
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+#task-8 {
+    flex-direction: row-reverse;
+}
+
+#task-9 {
+    flex-direction: column;
+}
+
+#task-10 {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+#task-11 {
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#task-12 {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+#task-13 {
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+
+#task-14 {
+    order: 1;
+}
+
+#task-15 {
+    order: -1;
+}
+
+#task-16 {
+    align-self: flex-end;
+}
+
+#task-17 {
+    align-self: flex-end;
+    order: 1;
+}
+
+#task-18 {
+    flex-wrap: wrap;
+}
+
+#task-19 {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#task-20 {
+    flex-flow: column wrap;
+}
+
+#task-21 {
+    align-content: flex-start;
+}
+
+#task-22 {
+    align-content: flex-end;
+}
+
+#task-23 {
+    flex-direction: column-reverse;
+    align-content: center;
+}
+
+#task-24 {
     flex-flow: column-reverse wrap-reverse;
     justify-content: center;
     align-content: space-between;
