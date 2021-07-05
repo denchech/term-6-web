@@ -1,0 +1,113 @@
+#task-1 {
+    grid-column-start: 3;
+}
+
+#task-2 {
+    grid-column-start: 5;
+}
+
+#task-3 {
+    grid-column-end: 4;
+}
+
+#task-4 {
+    grid-column-end: 2;
+}
+
+#task-5 {
+    grid-column-end: -2;
+}
+
+#task-6 {
+    grid-column-start: -3;
+}
+
+#task-7 {
+    grid-column-end: span 2;
+}
+
+#task-8 {
+    grid-column-end: span 5;
+}
+
+#task-9 {
+    grid-column-start: span 3;
+}
+
+#task-10 {
+    grid-column: 4 / 6;
+}
+
+#task-11 {
+    grid-column: 2 / span 3;
+}
+
+#task-12 {
+    grid-row-start: 3;
+}
+
+#task-13 {
+    grid-row: 3 / 6;
+}
+
+#task-14 {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+#task-15 {
+    grid-column: 2 / span 4;
+    grid-row: 1 / span 5;
+}
+
+#task-16 {
+    grid-area: 1 / 2 / 4 / 6;
+}
+
+#task-17 {
+    grid-area: 2 / 3 / span 3 / span 3;
+}
+
+#task-18 {
+    order: 1;
+}
+
+#task-19 {
+    order: -1;
+}
+
+#task-20 {
+    grid-template-columns: 50%
+}
+
+#task-21 {
+    grid-template-columns: repeat(8, 12.5%);
+}
+
+#task-22 {
+    grid-template-columns: 100px 3em 40%;
+}
+
+#task-23 {
+    grid-template-columns: 1fr 5fr;
+}
+
+#task-24 {
+    grid-template-columns: 50px repeat(3, 1fr) 50px;
+}
+
+#task-25 {
+    grid-template-columns: 75px 3fr 2fr;
+}
+
+#task-26 {
+    grid-template-rows: repeat(4, 12.5px) 1fr;
+}
+
+#task-27 {
+    grid-template: 60% / 200px
+}
+
+#task-28 {
+    grid-template: 1fr 50px / 20% 1fr;
+}
